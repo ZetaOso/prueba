@@ -1,10 +1,12 @@
-Fede exclamo... traje sandia loco
+cambiar de la rama donde estoy trabajando al  main:
+$ git checkout main
 
-git clone url
-abrimos git Bush en la carpeta clonada
-cramos la rama : git Branch <nombre de la rama>
-hacemos cambios en el archivo que clonamos
-preparamos y commitiamos los cambios:
-git add .
-git commit -m "commit"
-enviamos a la rama creada : git push origin <nombre de la rama>
+verificar traer los cambios que hubo previamente en el repositorio: 
+$git pull origin main
+
+preparar y commit los cambios: 
+$ git merge 
+$git add .
+$ git commit  -m "commit"
+git push origin main
+-------------------------------------------
